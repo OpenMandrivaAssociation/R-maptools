@@ -9,10 +9,11 @@ Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
 Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.8-14.tar.gz
-Requires:         R-foreign R-sp R-methods R-lattice 
-Requires:         R-spatstat R-PBSmapping R-maps R-rgeos R-gpclib R-RArcInfo 
-BuildRequires:    R-devel Rmath-devel texlive-collection-latex R-foreign R-sp R-methods R-lattice
-BuildRequires:    R-spatstat R-PBSmapping R-maps R-rgeos R-gpclib R-RArcInfo 
+Requires:         R-foreign R-sp R-methods R-lattice R-spatstat R-PBSmapping
+Requires:         R-maps R-rgeos R-gpclib R-RArcInfo
+BuildRequires:    R-devel Rmath-devel texlive-collection-latex
+BuildRequires:    R-foreign R-sp R-methods R-lattice R-spatstat R-PBSmapping
+BuildRequires:    R-maps R-rgeos R-gpclib R-RArcInfo
 BuildRequires:    geos-devel
 BuildRequires:    blas-devel
 BuildRequires:    lapack-devel
