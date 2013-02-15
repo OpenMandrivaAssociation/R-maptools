@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          0.8_14
+Version:          0.8.23
 Release:          1
 Summary:          Tools for reading and handling spatial objects
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_0.8-14.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/maptools_0.8-23.tar.gz
 Requires:         R-foreign R-sp R-methods R-lattice R-spatstat R-PBSmapping
 Requires:         R-maps R-rgeos R-gpclib R-RArcInfo
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex
@@ -56,6 +56,6 @@ fi
 %{rlibdir}/%{packname}/grids
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-%{rlibdir}/%{packname}/old_man
+#%{rlibdir}/%{packname}/old_man
 %{rlibdir}/%{packname}/shapes
 %{rlibdir}/%{packname}/share
