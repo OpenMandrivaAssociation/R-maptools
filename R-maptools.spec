@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          0.8.23
-Release:          1
+Release:          2
 Summary:          Tools for reading and handling spatial objects
 Group:            Sciences/Mathematics
 License:          GPL (>= 2)
